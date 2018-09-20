@@ -1,0 +1,534 @@
+<resources>
+    <string name="app_name">LondonRunner</string>
+    <string name="str1"><b>What are you looking for?</b></string>
+    <string name="str2">Outdoor tracks</string>
+    <string name="str3">Indoor tracks</string>
+    <string name="str4">Parks</string>
+    <string name="str5">Running routes</string>
+    <string name="str6">Running clubs</string>
+    <string name="image_cont_desc">Track image</string>
+
+
+    <string name="actionbar_icon">AB Icon</string>
+    <string name="str_dist_default">"X miles away"</string>
+    <string name="app_title"><b>London Runner</b></string>
+
+
+    <string name="info_distance">The displayed distance is a straight line from your location to
+        the tracks locations. Not the driving or walking distance</string>
+
+
+
+    <string name="type1_1_name">Mile End Stadium</string>
+    <string name="type1_1_address">E3 4HL</string>
+    <string name="type1_1_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Mile+End+Park+Leisure+Centre+and+Stadium</string>
+    <string name="type1_1_price1">Adult £2.80, Junior £1.40.\n Monthly and quarterly track passes available.</string>
+    <string name="type1_1_price2">Not free</string>
+    <string name="type1_1_desc">400m all-weather track with 8 lanes. Resurfaced in 2011.</string>
+    <string name="type1_1_times">Open Mon-Fri 6am-8pm\n Sat-Sun 9am-5pm</string>
+    <string name="type1_1_picURL">https://imgur.com/YjvEaf5</string>
+
+
+    <string name="type1_2_name">Regent\'s Park Track</string>
+    <string name="type1_2_address">NW1</string>
+    <string name="type1_2_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Regent\'s+Park+Running+Track</string>
+    <string name="type1_2_price1">Free</string>
+    <string name="type1_2_price2">Free</string>
+    <string name="type1_2_desc">6-lane 386.8m cinder track with tight bends. Open at all times.</string>
+    <string name="type1_2_times">Open Mon-Fri 9am-10pm\n Sat 9am-6pm\n Sun 9am-9:30pm.</string>
+    <string name="type1_2_picURL">https://imgur.com/RZRjgbp</string>
+
+    <string name="type1_3_name">Battersea Park Millennium Arena</string>
+    <string name="type1_3_address">SW11 4NJ</string>
+    <string name="type1_3_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Millennium+Arena</string>
+    <string name="type1_3_price1">Adult £2.70.\n Track passes or memberships available. </string>
+    <string name="type1_3_price2">Not free</string>
+    <string name="type1_3_desc">400m 8-lane synthetic track.</string>
+    <string name="type1_3_times">Open Mon-Fri 9am-10pm\n Sat 9am-6pm/n Sun 9am-9:30pm.</string>
+    <string name="type1_3_picURL">https://imgur.com/iOPjdrP</string>
+
+    <string name="type1_4_name">Parliament Hill Fields Athletics Track</string>
+    <string name="type1_4_address">NW5 1QR </string>
+    <string name="type1_4_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Parliament+Hill+Fields+Athletics+Track</string>
+    <string name="type1_4_price1">Track passes or memberships available.</string>
+    <string name="type1_4_price2">Not free</string>
+    <string name="type1_4_desc">400m 8-lane synthetic track, floodlit. There is also a 90m grass track at Hampstead Heath Extension during summer months.</string>
+    <string name="type1_4_times">Open Mon–Tue&amp;Thu 7:30am–4pm &amp; 6pm–close\n Wed 7:30am–9am &amp; 1–5pm &amp; 6pm–close\n Fri–Sat 7:30am–close\n Sun 7:30am–1pm &amp; 2:30–4pm.></string>
+    <string name="type1_4_picURL">https://imgur.com/CmcttH0</string>
+
+    <string name="type1_5_name">Finsbury Park Athletics Track</string>
+    <string name="type1_5_address">N4 2NQ</string>
+    <string name="type1_5_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Finsbury+Park+Race+Track</string>
+    <string name="type1_5_price1">Track passes or memberships available.</string>
+    <string name="type1_5_price2">Not free</string>
+    <string name="type1_5_desc">400m 6-lane synthetic track.</string>
+    <string name="type1_5_times">Mon, Wed, Fri, Sat, Sun 10am-4pm\n Tue &amp; Thu 4pm-9.30pm</string>
+    <string name="type1_5_picURL">https://imgur.com/QmPe9j2</string>
+
+    <string name="type1_6_name">Paddington Recreation Ground</string>
+    <string name="type1_6_address">W9 1PD</string>
+    <string name="type1_6_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=/Paddington+Recreation+Ground+Outdoor+Gym+-+TGOGC</string>
+    <string name="type1_6_price1">Adult £1.00, Junior £0.55</string>
+    <string name="type1_6_price2">Not free</string>
+    <string name="type1_6_desc">6-lane 400m synthetic track, floodlit.</string>
+    <string name="type1_6_times">Open Mon-Sun 7am-9:30pm.</string>
+    <string name="type1_6_picURL">https://imgur.com/cyJFoJs</string>
+
+    <string name="type1_7_name">Victoria Park Track</string>
+    <string name="type1_7_address">E3 5TB</string>
+    <string name="type1_7_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=51.5388035,-0.0336228</string>
+    <string name="type1_7_price1">Free</string>
+    <string name="type1_7_price2">Free</string>
+    <string name="type1_7_desc"> 400m cinder track.</string>
+    <string name="type1_7_times">Open during park open hours.</string>
+    <string name="type1_7_picURL">https://imgur.com/tFtDEV1</string>
+
+    <string name="type1_8_name">White Hart Lane Community Sports Centre</string>
+    <string name="type1_8_address">N22 5QW</string>
+    <string name="type1_8_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=New+River+Sport,+Tennis+%26+Fitness</string>
+    <string name="type1_8_price1">Casual use pay.</string>
+    <string name="type1_8_price2">Not free</string>
+    <string name="type1_8_desc">400m 8-lane synthetic track.</string>
+    <string name="type1_8_times">Open Mon-Fri 9am-10pm\n Sat 9am-6pm\n Sun 9am-9:30pm.</string>
+    <string name="type1_8_picURL">https://imgur.com/bbZC01D</string>
+
+    <string name="type1_9_name">Lee Valley Athletics Centre</string>
+    <string name="type1_9_address">N9 0AS</string>
+    <string name="type1_9_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Lee+Valley+Athletics+Centre</string>
+    <string name="type1_9_price1">Adult £4.40.\n Concession groups discount.\n Monthly passes available</string>
+    <string name="type1_9_price2">Not free</string>
+    <string name="type1_9_desc">8-lane 400m synthetic outdoor track. Plus a 600m bark trail and 200m indoor track with 130 sprint straight. </string>
+    <string name="type1_9_times">Open Mon-Fri 8am-10pm\n Sat-Sun 8am-5pm.</string>
+    <string name="type1_9_picURL">https://imgur.com/UL6Mh3u</string>
+
+    <string name="type2_9_name">Lee Valley Athletics Centre</string>
+    <string name="type2_9_address">N9 0AS</string>
+    <string name="type2_9_price1">Adult £4.40.\n Concession groups discount.\n Monthly passes available</string>
+    <string name="type2_9_price2">Not free</string>
+    <string name="type2_9_desc">8-lane 400m synthetic outdoor track. Plus a 600m bark trail and 200m indoor track with 130 sprint straight. </string>
+    <string name="type2_9_times">Open Mon-Fri 8am-10pm\n Sat-Sun 8am-5pm.</string>
+    <string name="type2_9_picURL">https://imgur.com/0xdtA5H</string>
+
+    <string name="type1_10_name">Queen Elizabeth Stadium</string>
+    <string name="type1_10_address">EN1 3PL</string>
+    <string name="type1_10_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Enfield+and+Haringey+Athletic+Club</string>
+    <string name="type1_10_price1">Unknown</string>
+    <string name="type1_10_price2">Unknown</string>
+    <string name="type1_10_desc">400m 6-lane synthetic track.</string>
+    <string name="type1_10_times">Unknown</string>
+    <string name="type1_10_picURL">https://imgur.com/C5dCnSX</string>
+
+    <string name="type1_11_name">Waltham Forest Pool and Track</string>
+    <string name="type1_11_address">E17 5AA</string>
+    <string name="type1_11_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Waltham+Forest+Feel+Good+Centre</string>
+    <string name="type1_11_price1">Casual use and membership available.</string>
+    <string name="type1_11_price2">Not free</string>
+    <string name="type1_11_desc">8-lane 400m synthetic outdoor track.</string>
+    <string name="type1_11_times">Open Mon-Fri 8am-9pm\n Sat-Sun 8am-2pm.</string>
+    <string name="type1_11_picURL">https://imgur.com/YKoyxVt</string>
+
+    <string name="type1_12_name">Ashton Playing Fields</string>
+    <string name="type1_12_address">IG8 8AA</string>
+    <string name="type1_12_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Ashton+Playing+Fields</string>
+    <string name="type1_12_price1">Casual use and membership available.</string>
+    <string name="type1_12_price2">Not free</string>
+    <string name="type1_12_desc">400m all-weather track with 8 lanes.</string>
+    <string name="type1_12_times">Open Mon-Thu 7am-10pm\n Fri 7am-7pm\n Sat-Sun 9am-5pm.</string>
+    <string name="type1_12_picURL">https://imgur.com/PWT5Pwc</string>
+
+    <string name="type1_13_name">Newham Leisure Centre</string>
+    <string name="type1_13_address">E13 8SD</string>
+    <string name="type1_13_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Newham+Leisure+Centre</string>
+    <string name="type1_13_price1">Casual use and membership available.</string>
+    <string name="type1_13_price2">Not free</string>
+    <string name="type1_13_desc"> 400m all-weather track with 8 lanes </string>
+    <string name="type1_13_times">Open Mon-Fri 6:30am-10:30pm\n Sat 9am-6pm\n Sun 9am-10pm.</string>
+    <string name="type1_13_picURL">https://imgur.com/sjar9RT</string>
+
+    <string name="type1_14_name">Sutcliffe Park</string>
+    <string name="type1_14_address"> SE9 5LW</string>
+    <string name="type1_14_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Sutcliffe+Park+Sports+Centre</string>
+    <string name="type1_14_price1">Adult £3.70, Junior £2.10.\n Membership options available for reduced charges.\n 6 month season tickets available.</string>
+    <string name="type1_14_price2">Not free</string>
+    <string name="type1_14_desc">400m synthetic, 6-lane track. </string>
+    <string name="type1_14_times">Open Tue 4pm-9pm\n Thu 4pm-9pm\n Sat 9:30am-1:30pm\n Sun 10am-1pm.</string>
+    <string name="type1_14_picURL">https://imgur.com/oOlF3EK</string>
+
+    <string name="type1_15_name">Ladywell Arena</string>
+    <string name="type1_15_address">SE6 4QX</string>
+    <string name="type1_15_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Ladywell+Arena</string>
+    <string name="type1_15_price1">Adult £1.80, Junior £1.20</string>
+    <string name="type1_15_price2">Not free</string>
+    <string name="type1_15_desc">400m 6-lane synthetic track.</string>
+    <string name="type1_15_times">Open Mon-Fri 7am-10pm\n Sat-Sun 7am-6pm.</string>
+    <string name="type1_15_picURL">https://imgur.com/Nh4cz5l</string>
+
+    <string name="type1_16_name">Norman Park Athletics Track</string>
+    <string name="type1_16_address">BR2 9EF</string>
+    <string name="type1_16_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Norman+Park+Athletics+Track</string>
+    <string name="type1_16_price1"> Adult £4.20, Junior £3.\n Club memberships available.</string>
+    <string name="type1_16_price2">Not free</string>
+    <string name="type1_16_desc">8-lane all-weather 400m track.</string>
+    <string name="type1_16_times">Mon 6–9pm\n Tue–Thu 12–9pm\n Fri Closed\n Sat-Sun 9am-1pm.</string>
+    <string name="type1_16_picURL">https://imgur.com/6dOKuAB</string>
+
+    <string name="type1_17_name">Croydon Sports Arena</string>
+    <string name="type1_17_address">SE25 4QL</string>
+    <string name="type1_17_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Croydon+Arena</string>
+    <string name="type1_17_price1">Casual use and memberships available</string>
+    <string name="type1_17_price2">Not free</string>
+    <string name="type1_17_desc">8-lane all-weather 400m running track.</string>
+    <string name="type1_17_times">Open Mon–Wed 9am–4pm\n Tue 2–9pm; Thu 9am-9pm\n Fri 9am-12pm\n Sat-Sun Closed.</string>
+    <string name="type1_17_picURL">https://imgur.com/W4x9VhB</string>
+
+    <string name="type1_18_name">Crystal Palace Athletics Stadium</string>
+    <string name="type1_18_address">SE19 2BB </string>
+    <string name="type1_18_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Crystal+Palace+National+Sports+Centre</string>
+    <string name="type1_18_price1">Casual use and memberships available</string>
+    <string name="type1_18_price2">Not free</string>
+    <string name="type1_18_desc">8-lane all-weather 400m running track. Plus indoor 110m track.</string>
+    <string name="type1_18_times">Open Mon-Fri 6:30am-10pm\n Sat-Sun 8am-5pm.</string>
+    <string name="type1_18_picURL">https://imgur.com/OtJ1SQS</string>
+
+    <string name="type2_18_name">Crystal Palace Athletics Stadium</string>
+    <string name="type2_18_address">SE19 2BB </string>
+    <string name="type2_18_price1">Casual use and memberships available</string>
+    <string name="type2_18_price2">Not free</string>
+    <string name="type2_18_desc">8-lane all-weather 400m running track. Plus indoor 110m track.</string>
+    <string name="type2_18_times">Open Mon-Fri 6:30am-10pm\n Sat-Sun 8am-5pm.</string>
+    <string name="type2_18_picURL">https://imgur.com/8ppmud3</string>
+
+    <string name="type1_19_name">Tooting Bec Athletics Track</string>
+    <string name="type1_19_address">SW17 3NP</string>
+    <string name="type1_19_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Tooting+Bec+Athletics+Track+%26+Gym</string>
+    <string name="type1_19_price1">Casual use and memberships available</string>
+    <string name="type1_19_price2">Not free</string>
+    <string name="type1_19_desc"> 400m 8-lane synthetic track.</string>
+    <string name="type1_19_times">Open Mon-Fri 8am-9pm\n Sat-Sun 8am-7pm\n Bank Holidays 9am-4pm.</string>
+    <string name="type1_19_picURL">https://imgur.com/yezwGWo</string>
+
+    <string name="type1_20_name">David Weir Leisure Centre (Sutton Arena)</string>
+    <string name="type1_20_address"> SM5 1SL</string>
+    <string name="type1_20_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=David+Weir+Leisure+Centre</string>
+    <string name="type1_20_price1">Casual use and memberships available</string>
+    <string name="type1_20_price2">Not free</string>
+    <string name="type1_20_desc">400m outdoor synthetic track plus 60m indoor sprint hall.</string>
+    <string name="type1_20_times">Open Mon-Fri 7am-10pm\n Sat-Sun 8am-6pm.</string>
+    <string name="type1_20_picURL">https://imgur.com/HfkCBiJ</string>
+
+    <string name="type2_20_name">David Weir Leisure Centre (Sutton Arena)</string>
+    <string name="type2_20_address"> SM5 1SL</string>
+    <string name="type2_20_price1">Casual use and memberships available</string>
+    <string name="type2_20_price2">Not free</string>
+    <string name="type2_20_desc">400m outdoor synthetic track plus 60m indoor sprint hall.</string>
+    <string name="type2_20_times">Open Mon-Fri 7am-10pm\n Sat-Sun 8am-6pm.</string>
+    <string name="type2_20_picURL">https://imgur.com/62Ykif5</string>
+
+    <string name="type1_21_name">Wimbledon Park Track</string>
+    <string name="type1_21_address"> SW19 8AU</string>
+    <string name="type1_21_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Wimbledon+Athletics+Track</string>
+    <string name="type1_21_price1">Casual use and memberships available</string>
+    <string name="type1_21_price2">Not free</string>
+    <string name="type1_21_desc">8-lane 400m synthetic track.</string>
+    <string name="type1_21_times">Mon 6–9pm\n Tue–Thu 12–9pm\n Fri Closed\n Sat-Sun 9am-1pm.</string>
+    <string name="type1_21_picURL">https://imgur.com/yZRmxja</string>
+
+    <string name="type1_22_name">Kingsmeadow Athletics Centre</string>
+    <string name="type1_22_address">KT1 3PB </string>
+    <string name="type1_22_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Kingsmeadow+Athletics+%26+Fitness+Centre</string>
+    <string name="type1_22_price1">Casual use and memberships available</string>
+    <string name="type1_22_price2">Not free</string>
+    <string name="type1_22_desc">Floodlit 8-lane 400m synthetic track.</string>
+    <string name="type1_22_times">Open Mon-Thu 7:30am-10pm\n Fri 7:30am-8pm\n Sat-Sun 9am-5pm.</string>
+    <string name="type1_22_picURL">https://imgur.com/RM0z3oj</string>
+
+    <string name="type1_23_name">Barn Elms Athletics Track</string>
+    <string name="type1_23_address">SW13 9SA</string>
+    <string name="type1_23_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Barn+Elms+Sports+Centre</string>
+    <string name="type1_23_price1">Casual use and memberships available</string>
+    <string name="type1_23_price2">Not free</string>
+    <string name="type1_23_desc">6-lane 400m synthetic track. </string>
+    <string name="type1_23_times">Open Mon-Fri 9am-6pm\n Sat-Sun 8:30am-6pm.</string>
+    <string name="type1_23_picURL">https://imgur.com/LhnXTZ7</string>
+
+    <string name="type1_24_name">Linford Christie Outdoor Sports Centre</string>
+    <string name="type1_24_address">W12 ODF</string>
+    <string name="type1_24_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Linford+Christie+Stadium</string>
+    <string name="type1_24_price1">Casual use and memberships available</string>
+    <string name="type1_24_price2">Not free</string>
+    <string name="type1_24_desc">8-lane 400m synthetic track, floodlit. </string>
+    <string name="type1_24_times">Open Mon-Thu 9am-10pm\n Fri 9am-9pm\n Sat-Sun 9am-6pm.</string>
+    <string name="type1_24_picURL">https://imgur.com/rn7VJUX</string>
+
+    <string name="type1_25_name">Willisden Sports Centre</string>
+    <string name="type1_25_address">NW10 3QX</string>
+    <string name="type1_25_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Willesden+Sports+Centre</string>
+    <string name="type1_25_price1">Casual use and memberships available</string>
+    <string name="type1_25_price2">Not free</string>
+    <string name="type1_25_desc">Outdoor 6-lane 400m track plus indoor 60m track.</string>
+    <string name="type1_25_times">Open Mon-Fri 6:30am-10pm\n Sat 8am-6:30pm\n Sun 8am-9pm</string>
+    <string name="type1_25_picURL">https://imgur.com/UGNcVNb</string>
+
+    <string name="type2_25_name">Willisden Sports Centre</string>
+    <string name="type2_25_address">NW10 3QX</string>
+    <string name="type2_25_price1">Casual use and memberships available</string>
+    <string name="type2_25_price2">Not free</string>
+    <string name="type2_25_desc">Outdoor 6-lane 400m track plus indoor 60m track.</string>
+    <string name="type2_25_times">Open Mon-Fri 6:30am-10pm\n Sat 8am-6:30pm\n Sun 8am-9pm</string>
+    <string name="type2_25_picURL">https://imgur.com/IUhf9Fa</string>
+
+    <string name="type1_26_name">Allianz Park Athletics Track</string>
+    <string name="type1_26_address">NW4 1RL</string>
+    <string name="type1_26_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Allianz+Park</string>
+    <string name="type1_26_price1">Casual use and memberships available</string>
+    <string name="type1_26_price2">Not free</string>
+    <string name="type1_26_desc">400m 8-lane synthetic track. Also has an 80m indoor track.</string>
+    <string name="type1_26_times">Unknown</string>
+    <string name="type1_26_picURL">https://imgur.com/RZx81PP</string>
+
+    <string name="type2_26_name">Allianz Park Athletics Track</string>
+    <string name="type2_26_address">NW4 1RL</string>
+    <string name="type2_26_price1">Casual use and memberships available</string>
+    <string name="type2_26_price2">Not free</string>
+    <string name="type2_26_desc">400m 8-lane synthetic track. Also has an 80m indoor track.</string>
+    <string name="type2_26_times">Unknown</string>
+    <string name="type2_26_picURL">https://imgur.com/RZx81PP</string>
+
+    <string name="type1_27_name">Bannister Outdoor Sports Centre</string>
+    <string name="type1_27_address">HA3 6SW </string>
+    <string name="type1_27_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Bannister+Stadium</string>
+    <string name="type1_27_price1">Casual use and memberships available</string>
+    <string name="type1_27_price2">Not free</string>
+    <string name="type1_27_desc">Floodlit 400m 8-lane synthetic track. </string>
+    <string name="type1_27_times">Open Mon–Thu 12–8:30pm\n Fri closed\n Sat-Sun 9am-3:30pm.</string>
+    <string name="type1_27_picURL">https://imgur.com/uhNZ1zP</string>
+
+    <string name="type1_28_name">Perivale Park Athletics Track</string>
+    <string name="type1_28_address">UB6 8TJ</string>
+    <string name="type1_28_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Perivale+Park+Athletics+Track</string>
+    <string name="type1_28_price1">Casual use and memberships available</string>
+    <string name="type1_28_price2">Not free</string>
+    <string name="type1_28_desc">8-lane floodlit 400m synthetic outdoor track.</string>
+    <string name="type1_28_times">Open Mon–Thu 6–9pm\n Fri closed\n Sat-Sun 10:30am-1:30pm.</string>
+    <string name="type1_28_picURL">https://imgur.com/x2fY3d6</string>
+
+    <string name="type1_29_name">Osterley Sports &amp; Athletics Centre</string>
+    <string name="type1_29_address">TW7 5FF</string>
+    <string name="type1_29_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Osterley+Sports+%26+Athletics+Centre</string>
+    <string name="type1_29_price1">Casual use and memberships available</string>
+    <string name="type1_29_price2">Not free</string>
+    <string name="type1_29_desc">8-lane 400m synthetic outdoor track.</string>
+    <string name="type1_29_times">Open Mon-Sun 9am-4pm (depending on season).</string>
+    <string name="type1_29_picURL">https://imgur.com/yu2unZG</string>
+
+    <string name="type1_30_name">St. Mary\'s University Track</string>
+    <string name="type1_30_address">TW1 4SX </string>
+    <string name="type1_30_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Sport+St+Mary\'s</string>
+    <string name="type1_30_price1">Casual use and memberships available</string>
+    <string name="type1_30_price2">Not free</string>
+    <string name="type1_30_desc">6-lane 400m synthetic track.</string>
+    <string name="type1_30_times">Unknown</string>
+    <string name="type1_30_picURL">https://imgur.com/Q6NYI5X</string>
+
+    <string name="type1_31_name">Hillingdon Sports &amp; Leisure Complex</string>
+    <string name="type1_31_address">UB8 1ES</string>
+    <string name="type1_31_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Hillingdon+Athletics+Stadium</string>
+    <string name="type1_31_price1">Casual use and memberships available</string>
+    <string name="type1_31_price2">Not free</string>
+    <string name="type1_31_desc">400m 8-lane synthetic track, floodlit.</string>
+    <string name="type1_31_times">Open Mon-Tue 9am-10pm\n Wed-Fri 9:30am-10pm\n Sat-Sun 9am-5pm.</string>
+    <string name="type1_31_picURL">https://imgur.com/tI9qA4e</string>
+
+    <string name="type1_32_name">Brunel University London Athletics Arena</string>
+    <string name="type1_32_address">UB8 3PH</string>
+    <string name="type1_32_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=West+London+Track+%26+Field</string>
+    <string name="type1_32_price1">Casual use and memberships available</string>
+    <string name="type1_32_price2">Not free</string>
+    <string name="type1_32_desc">400m 6-lane synthetic track, floodlit. Also has a 132m indoor sprint track.</string>
+    <string name="type1_32_times">Open Mon-Fri 7am-11pm\n Sat-Sun 9am-7pm. </string>
+    <string name="type1_32_picURL">https://imgur.com/Rahz5iV</string>
+
+    <string name="type2_32_name">Brunel University London Athletics Arena</string>
+    <string name="type2_32_address">UB8 3PH</string>
+    <string name="type2_32_price1">Casual use and memberships available</string>
+    <string name="type2_32_price2">Not free</string>
+    <string name="type2_32_desc">400m 6-lane synthetic track, floodlit. Also has a 132m indoor sprint track.</string>
+    <string name="type2_32_times">Open Mon-Fri 7am-11pm\n Sat-Sun 9am-7pm. </string>
+    <string name="type2_32_picURL">https://imgur.com/BVvteUV</string>
+
+    <string name="type1_33_name">Hornchurch Stadium</string>
+    <string name="type1_33_address">RM14 2LX</string>
+    <string name="type1_33_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=AFC+Hornchurch</string>
+    <string name="type1_33_price1">Casual use and memberships available</string>
+    <string name="type1_33_price2">Not free</string>
+    <string name="type1_33_desc">6-lane 400m synthetic track.</string>
+    <string name="type1_33_times">Unknown.</string>
+    <string name="type1_33_picURL">https://imgur.com/JCC9FcO</string>
+
+    <string name="type3_1_name">River Thames Sightseeing Tour</string>
+    <string name="type3_1_address">Central London</string>
+    <string name="type3_1_desc">This run along the Thames takes in some of the most popular sights
+        London has to offer, including the Tower of London, Tower Bridge, the London Eye, Big Ben
+        and the Houses of Parliament. It is completely flat and mainly along the waterfront thus
+        avoiding some street traffic. This route is best run early in the morning or in the winter
+        to avoid heavy tourist traffic. You’ll want to plan an easy run so you can take your time
+        to enjoy the historic landmarks and stop for pictures. The distance can be varied by
+        selecting a different bridge to cross the river, try the Millennium Bridge for a shorter
+        loop or the Battersea for a longer run.</string>
+    <string name="type3_1_distance">9.5km</string>
+    <string name="type3_1_elevation">163m</string>
+    <string name="type3_1_surface">Road</string>
+    <string name="type3_1_picURL">https://imgur.com/K10K4JM</string>
+    <string name="type3_1_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60076</string>
+
+
+    <string name="type3_2_name">Four Royal Parks</string>
+    <string name="type3_2_address">Central London</string>
+    <string name="type3_2_desc">Enjoy a bit of nature in the middle of the city as you glide along
+        shaded paths, past ponds, gardens, and of course Kensington Palace. Any number of routes are
+        possible through the Hyde Park and Kensington Gardens pathways, which offer a combination of
+        paved and dirt surfaces. Our route adds on Green Park and St. James Park as well to take you
+        past Buckingham Palace, the Horse Guards Parade, and the Mall. This route is flat and nearly
+        traffic free except Hyde Park Corner. Note that Kensington Gardens is closed after dark.</string>
+    <string name="type3_2_distance">10.5km</string>
+    <string name="type3_2_elevation">93m</string>
+    <string name="type3_2_surface">Road</string>
+    <string name="type3_2_picURL">https://imgur.com/aw8aQyB</string>
+    <string name="type3_2_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60089</string>
+
+
+    <string name="type3_3_name">Hampstead Heath</string>
+    <string name="type3_3_address">North West London</string>
+    <string name="type3_3_desc">Hampstead Heath is crisscrossed with both paved and dirt paths
+        through woodlands and grassy knolls. It is a popular place for hill workouts up Parliament
+        Hill, which has amazing views of the city. The Heath is an excellent place for an outdoor
+        workout as it boasts a variety of terrain as well as an athletic track and swimming in the
+        lido or ponds. This route takes you around the perimeter of the Heath and starts at the
+        track where there are public shower facilities. After this short loop why not finish your
+        run with some hill repeats on Parliament Hill?.</string>
+    <string name="type3_3_distance">5.8km</string>
+    <string name="type3_3_elevation">122m</string>
+    <string name="type3_3_surface">Trail</string>
+    <string name="type3_3_picURL">https://imgur.com/OWWToQY</string>
+    <string name="type3_3_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60090</string>
+
+
+    <string name="type3_4_name">Richmond Park</string>
+    <string name="type3_4_address">South West London</string>
+    <string name="type3_4_desc">Richmond Park, the largest of the Royal Parks, is a countryside
+        treasure within the city of London. A short trip from central London has you running on
+        hilly dirt trails through forests and fields. The most popular route in Richmond Park is
+        the perimeter loop on the Tamsin Trail but a network of trails offer countless options.
+        If you venture in to the heart of the park you will likely meet some of the deer that live
+        there. Toilets, water fountains and cafes are plentiful, making Richmond Park the ideal
+        place for any type of run. Our route starts and finishes at the Roehampton Gate where you
+        will find a café for a post-run snack. For a more formal lunch try the Pembroke Lodge.</string>
+    <string name="type3_4_distance">11.6km</string>
+    <string name="type3_4_elevation">115m</string>
+    <string name="type3_4_surface">Trail</string>
+    <string name="type3_4_picURL">https://imgur.com/6GpBW7b</string>
+    <string name="type3_4_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60091</string>
+
+
+    <string name="type3_5_name">East London Towpaths</string>
+    <string name="type3_5_address">East London</string>
+    <string name="type3_5_desc">This mostly traffic-free, flat, paved route takes you on a tour of
+        East London via four different towpaths along London’s historic canals – the Limehouse Cut,
+        River Lea, Hertford Union and Regent\'s Canals. Starting from the redeveloped Limehouse Basin
+        you will run past narrowboats and locks, over and under bridges and even get a peek at the
+        Olympic Park. You’ll find a variety of scenery along your way from industrial buildings to
+        manicured parks. Highlights include the floating towpath on the Limehouse Cut, the Olympic
+        Stadium, Victoria Park, and Mile End Park. You might try a detour through the meandering
+        paths of Mile End Park or extend this route by continuing along the Thames.</string>
+    <string name="type3_5_distance">10.0km</string>
+    <string name="type3_5_elevation">56m</string>
+    <string name="type3_5_surface">Road</string>
+    <string name="type3_5_picURL">https://imgur.com/E0TlV28</string>
+    <string name="type3_5_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60104</string>
+
+
+    <string name="type3_6_name">Regent\'s Park</string>
+    <string name="type3_6_address">Central/North West London</string>
+    <string name="type3_6_desc">Once a hunting ground for Henry VIII, today Regent’s Park is a
+        public playground featuring open fields, gardens, a running track, restrooms, cafés, and
+        the London Zoo. The paved paths through beautiful Regent\'s Park are a great place for a
+        flat tempo run but we also like to run up Primrose Hill which some say rivals Parliament
+        Hill for views of London. We start and finish this run near the Hub, which has locker and
+        shower facilities, a café, and even offers exercise classes if you want to spice up your
+        training.</string>
+    <string name="type3_6_distance">5.4km</string>
+    <string name="type3_6_elevation">65m</string>
+    <string name="type3_6_surface">Road</string>
+    <string name="type3_6_picURL">https://imgur.com/eOlIHEj</string>
+    <string name="type3_6_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60105</string>
+
+
+    <string name="type3_7_name">Victoria Park</string>
+    <string name="type3_7_address">East London - North of the river </string>
+    <string name="type3_7_desc">Enjoy this nearly traffic-free run as you loop through the popular,
+        historic Victoria Park. “Vicky Park”, as it is known locally, boasts pretty, tree-lined,
+        paved paths, as well as restrooms, cafés, and plenty of other runners. After a lap around
+        the park we add on an out and back along Regent\'s Canal to the arched Acton Mews Bridge.
+        The towpath alongside Regent’s Canal is also a popular place for running in London as it
+        allows you to run off-road for over 14 km from Little Venice to Limehouse Basin. Our route
+        starts from the Crown Gates where you will find the Pavilion Café if you are in need of
+        refreshment after your run.</string>
+    <string name="type3_7_distance">7.8km</string>
+    <string name="type3_7_elevation">57m</string>
+    <string name="type3_7_surface">Road</string>
+    <string name="type3_7_picURL">https://imgur.com/LCwNO6i</string>
+    <string name="type3_7_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60106</string>
+
+
+    <string name="type3_8_name">Battersea Park</string>
+    <string name="type3_8_address">South West London</string>
+    <string name="type3_8_desc">Prior to the opening of Battersea Park in 1854 this area was known
+        as Battersea Fields and was home to various lewd and lascivious activities. Now it is an
+        elegant green space along the Thames that is popular with local runners. The 3 km, flat,
+        paved Carriage Drive loop around Battersea Park and the running track at Millennium Arena
+        are both excellent locations for your weekly speed work. In addition to the 8-lane track,
+        Millennium Arena offers 19 tennis courts and a fitness centre complete with exercise classes
+        and shower and changing facilities.</string>
+    <string name="type3_8_distance">3.0km</string>
+    <string name="type3_8_elevation">19m</string>
+    <string name="type3_8_surface">Road</string>
+    <string name="type3_8_picURL">https://imgur.com/xvqzcPP</string>
+    <string name="type3_8_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60107</string>
+
+
+
+    <string name="str9_1">Indoor Track 1</string>
+    <string name="str9_2">Location 1</string>
+    <string name="str9_3">Price 1</string>
+    <string name="str10_1">Indoor Track 2</string>
+    <string name="str10_2">Location 2</string>
+    <string name="str10_3">Price 2</string>
+    <string name="str11_1">Indoor Track 3</string>
+    <string name="str11_2">Location 3</string>
+    <string name="str11_3">Price 3</string>
+
+    <string name="str12_1">Park 1</string>
+    <string name="str12_2">Location 1</string>
+    <string name="str13_1">Park 2</string>
+    <string name="str13_2">Location 2</string>
+    <string name="str14_1">Park 3</string>
+    <string name="str14_2">Location 3</string>
+
+    <string name="str15_1">Running route 1</string>
+    <string name="str15_2">Location 1</string>
+    <string name="str15_3">Distance 1</string>
+    <string name="str16_1">Running route 2</string>
+    <string name="str16_2">Location 2</string>
+    <string name="str16_3">Distance 2</string>
+    <string name="str17_1">Running route 3</string>
+    <string name="str17_2">Location 3</string>
+    <string name="str17_3">Distance 3</string>
+
+    <string name="item_name">Item name</string>
+    <string name="item_adress">Item adress and map</string>
+    <string name="item_description">Description</string>
+    <string name="item_time">Opening times</string>
+    <string name="item_prices">Item prices</string>
+
+
+</resources>
