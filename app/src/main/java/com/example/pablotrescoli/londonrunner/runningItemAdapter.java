@@ -4,19 +4,16 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class runningItemAdapter extends ArrayAdapter<runningItem> {
 
@@ -98,9 +95,7 @@ public class runningItemAdapter extends ArrayAdapter<runningItem> {
 
         @Override
         public void onClick(View v) {
-            //use position to use the specific infrmation when displayed in detailedSite con un case
-            //pass along un parameter del 1 al 4, desde main screen hasta detailed para saber categoria
-            //al final habran un codigo rollo 1-1,2-4,3-2,4-8
+
             String siteIDStr = Integer.toString(myLovelyVariable1) + Integer.toString(myLovelyVariable2);
             Intent intent = new Intent(getContext(), detailedSite.class);
             intent.putExtra("siteID", siteIDStr);
@@ -110,5 +105,6 @@ public class runningItemAdapter extends ArrayAdapter<runningItem> {
     }
 
     ;
+
 
 }

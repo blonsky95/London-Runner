@@ -14,16 +14,13 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.ActionBar;
+
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
-
-import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -150,7 +147,7 @@ public class outdoorTracks_dist extends AppCompatActivity implements LocationLis
         latlonArray[4][2] = -0.1032436;
         Location.distanceBetween(latDouble, lonDouble, latlonArray[4][1], latlonArray[4][2], distX);
         latlonArray[4][0] = distX[0] / 1609.34;
-//51.5321241,-0.1925841
+
         latlonArray[5][1] = 51.5321241;
         latlonArray[5][2] = -0.1925841;
         Location.distanceBetween(latDouble, lonDouble, latlonArray[5][1], latlonArray[5][2], distX);
@@ -481,8 +478,7 @@ public class outdoorTracks_dist extends AppCompatActivity implements LocationLis
                 return true;
 
             default:
-                // If we got here, the user's action was not recognized.
-                // Invoke the superclass to handle it.
+
                 return super.onOptionsItemSelected(item);
         }
     }

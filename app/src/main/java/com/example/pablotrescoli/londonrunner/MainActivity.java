@@ -13,15 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
         TextView textview1=findViewById(R.id.text1);
         textview1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent goScreen1=new Intent(MainActivity.this,outdoorTracks.class);
-
                 startActivity(goScreen1);
 
             }
@@ -36,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
         TextView textview4=findViewById(R.id.text4);
         textview4.setOnClickListener(new View.OnClickListener() {

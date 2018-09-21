@@ -5,22 +5,16 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ListView;
-import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class outdoorTracks extends AppCompatActivity {
 
@@ -40,7 +34,6 @@ public class outdoorTracks extends AppCompatActivity {
 
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
 
         final ArrayList<runningItem> items = new ArrayList<runningItem>();
         items.add(new runningItem(R.string.type1_1_name, R.string.type1_1_address, R.string.type1_1_price2, R.string.type1_1_picURL));
@@ -79,7 +72,6 @@ public class outdoorTracks extends AppCompatActivity {
 
         int[] fiveClosestIds = {-1};
 
-
         runningItemAdapter adapter = new runningItemAdapter(this, items, R.color.transp_bg, SITE_ID,fiveClosestIds);
         ListView listView = (ListView) findViewById(R.id.list);
 //
@@ -88,7 +80,6 @@ public class outdoorTracks extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.list_menu1, menu);
         return true;
     }
@@ -99,8 +90,7 @@ public class outdoorTracks extends AppCompatActivity {
             case R.id.action_1:
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-
-                builder.setMessage("GET CLOSEST TRACKS?");
+                builder.setMessage("Locate the closest tracks to your location?");
                 builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -132,11 +122,7 @@ public class outdoorTracks extends AppCompatActivity {
                         if (PERMISSION_COARSE_LOCATION || PERMISSION_FINE_LOCATION) {
                             intentDist();
                         }
-// else {
-//
-//                            Toast.makeText(getApplicationContext(), "Location needed",
-//                                    Toast.LENGTH_LONG).show();
-//                        }
+
                     }
 
 
@@ -154,8 +140,7 @@ public class outdoorTracks extends AppCompatActivity {
 
 
             default:
-                // If we got here, the user's action was not recognized.
-                // Invoke the superclass to handle it.
+
                 return super.onOptionsItemSelected(item);
 
         }
@@ -176,7 +161,6 @@ public class outdoorTracks extends AppCompatActivity {
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     intentDist();
-                    // intent a dist
 
                 }
 
@@ -188,8 +172,6 @@ public class outdoorTracks extends AppCompatActivity {
                         && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
                     intentDist();
 
-                    // intent a dist
-
                 }
 
             }
@@ -200,41 +182,4 @@ public class outdoorTracks extends AppCompatActivity {
 
     }
 
-//    public class deleteScore implements View.OnClickListener {
-//
-//        int myLovelyVariable;
-//
-//        private deleteScore(int myLovelyVariable) {
-//            this.myLovelyVariable = myLovelyVariable;
-//        }
-//
-//        @Override
-//        public void onClick(View v) {
-//            AlertDialog.Builder builder = new AlertDialog.Builder(load_score_screen_dec.this);
-//
-//
-//            builder.setMessage("GET CLOSEST TRACKS?");
-//            builder.setPositiveButton("asd", new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                    Intent refreshScreen = new Intent(load_score_screen_dec.this, load_score_screen_dec.class);
-//                    startActivity(refreshScreen);
-//                }
-//            });
-//
-//            builder.setNegativeButton(getString(R.string.del_deny), new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                }
-//            });
-//
-//            builder.show();
-//
-//
-//        }
-//
-//
-//    }
 }

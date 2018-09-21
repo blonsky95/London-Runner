@@ -64,7 +64,7 @@ public class indoorTracks extends AppCompatActivity{
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
 
-                builder.setMessage("GET CLOSEST TRACKS?");
+                builder.setMessage("Locate the closest tracks to your location?");
                 builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -96,11 +96,7 @@ public class indoorTracks extends AppCompatActivity{
                         if (PERMISSION_COARSE_LOCATION || PERMISSION_FINE_LOCATION) {
                             intentDist();
                         }
-// else {
-//
-//                            Toast.makeText(getApplicationContext(), "Location needed",
-//                                    Toast.LENGTH_LONG).show();
-//                        }
+
                     }
 
 
@@ -151,16 +147,10 @@ public class indoorTracks extends AppCompatActivity{
                 if (grantResults.length > 0
                         && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
                     intentDist();
-
-                    // intent a dist
-
                 }
-
             }
             break;
 
-
         }
-
     }
 }

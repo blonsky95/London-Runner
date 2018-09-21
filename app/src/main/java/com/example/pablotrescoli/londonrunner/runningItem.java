@@ -13,15 +13,14 @@ public class runningItem {
     private static final String NO_DISTANCE = "-1";
 
 
-    //for indoor, outdoor tracks and running routes
-    //in running routes call Price will be distance
+    //for indoor and outdoor tracks
     public runningItem(int Name, int Location, int Price, int ImageId) {
         sName = Name;
         sLocation = Location;
         sPrice = Price;
         sImageId = ImageId;
     }
-
+    // for sites displayed by distance
     public runningItem(int Name, int Location, String distance, int ImageId) {
         sName = Name;
         sLocation = Location;
@@ -30,7 +29,7 @@ public class runningItem {
         sImageId = ImageId;
     }
 
-    //for parks
+    //for running routes
     public runningItem(int Name, int Location, int ImageId) {
         sName = Name;
         sLocation = Location;

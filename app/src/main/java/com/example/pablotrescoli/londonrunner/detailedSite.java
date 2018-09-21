@@ -7,18 +7,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bogdwellers.pinchtozoom.ImageMatrixTouchHandler;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class detailedSite extends AppCompatActivity {
 
@@ -948,7 +944,7 @@ public class detailedSite extends AppCompatActivity {
     private int[] getTypeAndId(String siteIdStr) {
         int[] X = new int[2];
         char char1 = siteIdStr.charAt(0);
-        X[0] = Integer.parseInt(siteIdStr.substring(0, 1)); //CATEGORY from 1 to 4
+        X[0] = Integer.parseInt(siteIdStr.substring(0, 1));
         X[1] = Integer.parseInt(siteIdStr.substring(1, siteIdStr.length())) + 1; //location ID (+1 because of position)
 
         return X;
@@ -965,9 +961,7 @@ public class detailedSite extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-            //use position to use the specific infrmation when displayed in detailedSite con un case
-            //pass along un parameter del 1 al 4, desde main screen hasta detailed para saber categoria
-            //al final habran un codigo rollo 1-1,2-4,3-2,4-8
+
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(mapsUrl));
             intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
             startActivity(intent);

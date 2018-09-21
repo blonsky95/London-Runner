@@ -46,7 +46,7 @@ public class indoorTracks_dist extends AppCompatActivity implements LocationList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.outdoortracks);
-        setTitle("Closest outdoor tracks");
+        setTitle("Closest indoor tracks");
 
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
