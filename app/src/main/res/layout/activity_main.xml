@@ -1,75 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/image1mod"
+    android:background="@drawable/ldn_background"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="main.MainMenu">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4.5"
+        android:gravity="center">
+
+
+
+    </View>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
-        android:layout_weight="4"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/title_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="22dp"
-            android:gravity="center"
-            android:text="@string/app_title"
-            android:textColor="@color/white"
-            android:textSize="32sp" />
-
-        <TextView
-            android:id="@+id/subtitle_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/str1"
-            android:textColor="@color/white"
-            android:textSize="24sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_gravity="center"
-        android:layout_weight="1.25"
         android:layout_marginTop="4dp"
+        android:layout_weight="1.25"
         android:gravity="center">
 
         <TextView
             android:id="@+id/text1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background1"
+
             android:gravity="center"
-            android:text="@string/str2"
+            android:text="@string/str_tracks"
             android:textColor="@color/white"
             android:textSize="20sp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_gravity="center"
-        android:layout_weight="1.25"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/text2"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="@string/str3"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -81,9 +49,11 @@
         <TextView
             android:id="@+id/text4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background1"
+
             android:gravity="center"
-            android:text="@string/str5"
+            android:text="@string/str6"
             android:textColor="@color/white"
 
             android:textSize="20sp" />
@@ -99,20 +69,21 @@
         <TextView
             android:id="@+id/text5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background1"
             android:gravity="center"
-            android:text="@string/str6"
+            android:text="@string/str5"
             android:textColor="@color/white"
-
             android:textSize="20sp" />
+
     </LinearLayout>
 
-    <LinearLayout
+    <View
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="0.5">
 
-    </LinearLayout>
+    </View>
 
 
 </LinearLayout>

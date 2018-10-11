@@ -5,6 +5,16 @@
     <color name="colorAccent">#FF4081</color>
     <color name="white">#ffffff</color>
     <color name="transp_bg">#00ffffff</color>
+    <color name="white_soft">#e2ffffff</color>
+    <color name="actionbar_bg">#dd000000</color>
+    <color name="black">#dd000000</color>
+    <color name="real_black">#000000</color>
+    <color name="yellow">#eafff82b</color>
+
+
+
+
+
 
 
 </resources>

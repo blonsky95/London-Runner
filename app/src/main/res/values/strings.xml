@@ -1,13 +1,42 @@
 <resources>
-    <string name="app_name">LondonRunner</string>
+    <string name="app_name">London Runner</string>
     <string name="str1"><b>What are you looking for?</b></string>
     <string name="str2">Outdoor tracks</string>
     <string name="str3">Indoor tracks</string>
+    <string name="str_tracks">Tracks</string>
+
     <string name="str4">Parks</string>
-    <string name="str5">Running routes</string>
-    <string name="str6">Running clubs</string>
+    <string name="str5">Parkrun</string>
+    <string name="str6">Athletics clubs</string>
     <string name="image_cont_desc">Track image</string>
 
+    <string name="local_club">Local club:</string>
+    <string name="club_desc">Club description</string>
+    <string name="links">Links</string>
+
+    <string name="item_heading_times_prices">Prices &amp; Opening times</string>
+
+    <string name="parkrun_title">Parkrun</string>
+    <string name="parkrun_text1">What is Parkrun?</string>
+    <string name="parkrun_text2">View results</string>
+    <string name="parkrun_text3">Register</string>
+    <string name="parkrun_register_url">https://www.parkrun.org.uk/register/form/</string>
+    <string name="parkrun_text4_1">Parkrun organise free, weekly, 5km timed runs around the world.
+        They are open to everyone, free, and are safe and easy to take part in.
+</string>
+    <string name="parkrun_text4_2"><i>"These events take place in pleasant parkland surroundings and we encourage people of every ability to take part; from those taking their first steps in running to Olympians; from juniors to those with more experience; we welcome you all."</i></string>
+
+    <string name="parkrun_image1_url">https://imgur.com/WNpfCsT</string>
+    <string name="parkrun_image2_url">https://imgur.com/jP6Iesm</string>
+    <string name="parkrun_image_contdesc">https://imgur.com/jP6Iesm</string>
+
+
+    <string name="parkrun_results_hint"> Type an athlete ID number\n(Can be found in your barcode and/or registration email)</string>
+
+
+
+    <string name="club_link">Club website</string>
+    <string name="club_roster">Power of 10 stats</string>
 
     <string name="actionbar_icon">AB Icon</string>
     <string name="str_dist_default">"X miles away"</string>
@@ -16,7 +45,6 @@
 
     <string name="info_distance">The displayed distance is a straight line from your location to
         the tracks locations. Not the driving or walking distance</string>
-
 
 
     <string name="type1_1_name">Mile End Stadium</string>
@@ -196,7 +224,7 @@
     <string name="type2_18_price2">Not free</string>
     <string name="type2_18_desc">8-lane all-weather 400m running track. Plus indoor 110m track.</string>
     <string name="type2_18_times">Open Mon-Fri 6:30am-10pm\n Sat-Sun 8am-5pm.</string>
-    <string name="type2_18_picURL">https://imgur.com/8ppmud3</string>
+    <string name="type2_18_picURL">https://imgur.com/E7T8e2I</string>
 
     <string name="type1_19_name">Tooting Bec Athletics Track</string>
     <string name="type1_19_address">SW17 3NP</string>
@@ -365,6 +393,20 @@
     <string name="type1_33_times">Unknown.</string>
     <string name="type1_33_picURL">https://imgur.com/JCC9FcO</string>
 
+    <string name="type1_34_name">Southwark Athletics Track</string>
+    <string name="type1_34_address">SE16 2PE</string>
+    <string name="type1_34_mapsURL">https://www.google.com/maps/search/?api=1&amp;query=Southwark+Athletics+Centre</string>
+    <string name="type1_34_price1">Casual use and memberships available</string>
+    <string name="type1_34_price2">Not free</string>
+    <string name="type1_34_desc">Our six-lane athletics track provides first-class running facilities
+        in the centre of Southwark for people of all ages and abilities, no matter what your goals
+        may be – whether it’s having fun or training for a marathon, while it’s easy to get to via
+        public transport, too. (Please be aware that Tuesday and Thursday are club sessions whilst
+        Saturday is available for public hire costing non-members £3 (adults) or £1.50
+        (concessions)).</string>
+    <string name="type1_34_times">Open Tue &amp; Thur 7pm-8.30pm\n Sat 9am-12pm</string>
+    <string name="type1_34_picURL">https://imgur.com/ETQLz4V</string>
+
     <string name="type3_1_name">River Thames Sightseeing Tour</string>
     <string name="type3_1_address">Central London</string>
     <string name="type3_1_desc">This run along the Thames takes in some of the most popular sights
@@ -495,6 +537,243 @@
     <string name="type3_8_picURL">https://imgur.com/xvqzcPP</string>
     <string name="type3_8_mapURL">https://www.maps.ie/map-my-route/viewMap.php?route=60107</string>
 
+    <string name="type4_1_name">London City AC</string>
+    <string name="type4_1_track">Southwark Athletics Centre</string>
+    <string name="type4_1_picURL">https://imgur.com/R7ID4yw</string>
+    <string name="type4_1_desc">Based at Southwark Athletics Centre, affiliated to England Athletics.
+        A friendly, inclusive club offering opportunities for athletes and runners of all
+    levels.</string>
+    <string name="type4_1_homeURL">https://www.londoncityac.org</string>
+    <string name="type4_1_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=3758</string>
+
+    <string name="type4_2_name">Belgrave Harriers</string>
+    <string name="type4_2_track">Millennium Arena, Battersea Park &amp; other tracks</string>
+    <string name="type4_2_picURL">https://imgur.com/omRM81o</string>
+    <string name="type4_2_desc">Belgrave Harriers was founded over one hundred years ago in 1887
+        and has a long and rich history of success in athletics and running.
+We pride ourselves on being an all inclusive club and cater to all standards and ranges of ability.
+        We offer coaching, training and competitions in all track and field, road running,
+        cross-country, indoor athletics and race walking events and welcome athletes from the
+        age of 11 upwards that are interested in the sport.
+    levels.</string>
+    <string name="type4_2_homeURL">http://www.belgraveharriers.co.uk/</string>
+    <string name="type4_2_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=110</string>
+
+    <string name="type4_3_name">Clapham chasers</string>
+    <string name="type4_3_track">Millennium Arena, Battersea Park</string>
+    <string name="type4_3_picURL">https://imgur.com/zCetEUb</string>
+    <string name="type4_3_desc">This club has grown very fast, and proved that there\'re plenty of
+        eager runners in Clapham! They are a very friendly bunch and not in the least intimidating.
+        As such we\'d highly recommend them for beginners, but they're not short on speedy Gonzales
+        either, so if you're looking for good competition this could well be the club for you.</string>
+    <string name="type4_3_homeURL">https://www.claphamchasers.co.uk/</string>
+    <string name="type4_3_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=2539</string>
+
+    <string name="type4_4_name">Dulwich Runners</string>
+    <string name="type4_4_track">Dulwich College Track / Ladywell Track</string>
+    <string name="type4_4_picURL">https://imgur.com/soAxIgq</string>
+    <string name="type4_4_desc">The larger of the two Dulwich based clubs, this is also the more
+        diverse, catering for all athletic disciplines. Dulwich produce strong performances in
+        competition, especially on road, and they have good Vets runners. Friendly, with a broad
+        range of abilities and depth in coaching, this is a very strong club.</string>
+    <string name="type4_4_homeURL">www.dulwichrunners.org.uk</string>
+    <string name="type4_4_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=430</string>
+
+    <string name="type4_5_name">Ealing Southall &amp; Middlesex AC</string>
+    <string name="type4_5_track">Perivale Park Track</string>
+    <string name="type4_5_picURL">https://imgur.com/ekY0KGZ</string>
+    <string name="type4_5_desc">A West London club that\'s great for juniors, and everyone else!
+        There\'s plenty of diversity and a good base of knowledge and training advice within its
+        members.</string>
+    <string name="type4_5_homeURL">www.esm.org.uk</string>
+    <string name="type4_5_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=446</string>
+
+    <string name="type4_6_name">East End Road Runners</string>
+    <string name="type4_6_track">Newham Leisure Centre</string>
+    <string name="type4_6_picURL">https://imgur.com/YeWR32a</string>
+    <string name="type4_6_desc">This is a friendly and diverse running club, very welcoming and with
+        a good structure to offer support to runners of all levels and abilities. If you\'re looking
+        to reach a new level or new distance, or just some encouragement and company in your running
+        then this is a great club. Whilst the club is not strictly geared up for absolute beginners,
+        they do work with some Run England sessions, so you can start there and then move into the
+        club proper.</string>
+    <string name="type4_6_homeURL">www.esm.org.uk</string>
+    <string name="type4_6_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=453</string>
+
+    <string name="type4_7_name">Harrow Athletic Club</string>
+    <string name="type4_7_track">Bannister Sports Centre</string>
+    <string name="type4_7_picURL">https://imgur.com/r4JvtzP</string>
+    <string name="type4_7_desc">Harrow AC is the premier athletics club in the Harrow area with
+        teams competing in the British, Southern and Youth Development Leagues.
+We have a very proud tradition of coaching and development within our community
+        resulting in our athletes representing Team GB in both the Olympics and at
+        the World Championships.
+We very much see Athlete development as a Core principle of H.A.C and helping an athlete to be
+        "As Good As They Can Possibly Be" and achieving their "Personal Best" sits at the very
+        heart of everything we want to achieve.</string>
+    <string name="type4_7_homeURL">http://www.harrowac.co.uk/</string>
+    <string name="type4_7_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=621</string>
+
+    <string name="type4_8_name">Herne Hill Harriers</string>
+    <string name="type4_8_track">Tooting Bec Track</string>
+    <string name="type4_8_picURL">https://imgur.com/jZuTYSN</string>
+    <string name="type4_8_desc">A South London club with a great juniors section, very strong on
+        track training (for all ages!), but with experience in everything up to Ultra Distance.
+        They have great coaches, a lovely mix of ages from an enthusiastic team of youngsters to
+        vets who've been running many a decade. A well organized and diverse club who regularly
+        feature in the medals.</string>
+    <string name="type4_8_homeURL">http://www.hernehillharriers.org/</string>
+    <string name="type4_8_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=660</string>
+
+    <string name="type4_9_name">Highgate Harriers</string>
+    <string name="type4_9_track">Parliament Hill Fields Track</string>
+    <string name="type4_9_picURL">https://imgur.com/iWk2slu</string>
+    <string name="type4_9_desc">The club is based at the Parliament Hill athletics track on the
+        south side of Hampstead Heath, and with nearly 800 acres of undulating heathland on which
+        to train, has developed a strong tradition in cross country running.
+Highgate Harriers welcomes new members of all standards and abilities from the age of seven.
+Just come along to the track and join in with one of the training sessions.</string>
+    <string name="type4_9_homeURL">http://www.highgateharriers.org.uk/</string>
+    <string name="type4_9_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=663</string>
+
+    <string name="type4_10_name">Hillingdon AC</string>
+    <string name="type4_10_track">Hillingdon Athletic Stadium</string>
+    <string name="type4_10_picURL">https://imgur.com/uWphPAb</string>
+    <string name="type4_10_desc">The objective of Hillingdon AC is \'to give every member the
+        opportunity to train and participate at his and her best level, in a professional and
+        happy environment and be recognised locally as such a club".
+
+We pride ourselves on being a friendly, open club with an active social section throughout the
+        year for all age groups. The Club has around 500 paid up members of which almost half are
+        under 21. The Club is open to individuals of all ages and ability and currently provides
+        competition in track, field, road and cross country from 11 years of age up to 70+.
+
+New members are welcome throughout the year from juniors through to veterans whatever
+        your abilities.</string>
+    <string name="type4_10_homeURL">http://www.hillingdonac.co.uk/</string>
+    <string name="type4_10_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=666</string>
+
+    <string name="type4_11_name">London Heathside</string>
+    <string name="type4_11_track">Finsbury Park Track</string>
+    <string name="type4_11_picURL">https://imgur.com/UTbr7Wo</string>
+    <string name="type4_11_desc">London Heathside is a friendly community athletics club that
+        warmly welcomes runners and athletes of all standards and ages. We always promote participation
+        and excellence in road running, track and field athletics and cross country running.
+We train from a number of local venues and are the natural home for runners and track &amp; field
+        athletes in boroughs of: Haringey, Camden, Islington and Hackney.
+Our members compete in cross-country races throughout the winter, track and field athletics
+        in the spring and summer and road racing year round. Each year we have upwards of 40
+        members who train for and complete in the Virgin London Marathon and regularly appear
+        within the top six clubs for this event.
+We organise regular athletics, cross-country and road racing events. We enjoy many community
+        and school links.
+With over 400 members, including approximately 100 young athletes,
+you will always find someone at your level to train with. The club also has a lively social scene!</string>
+    <string name="type4_11_homeURL">http://www.londonheathside.org.uk/</string>
+    <string name="type4_11_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=826</string>
+
+    <string name="type4_12_name">Newham &amp; Essex Beagles</string>
+    <string name="type4_12_track">Terence McMillan Stadium (Newham Leisure centre)</string>
+    <string name="type4_12_picURL">https://imgur.com/Esk7mTu</string>
+    <string name="type4_12_desc">Athletes of all standards are invited to join this all inclusive
+        club. We are an open club, and welcome members of all abilities, gender, disability and
+        ethnicity.
+The club welcomes prospective athletes from the age of eight years and upwards offering the
+        opportunity to train and compete. You are not required to join in the first place,
+        as we offer the opportunity to sample the club for £3 a session. It is however necessary
+        to join before being able to compete for the club.</string>
+    <string name="type4_12_homeURL">http://www.newhamandessexbeagles.co.uk/</string>
+    <string name="type4_12_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=947</string>
+
+    <string name="type4_13_name">Serpentine Running Club</string>
+    <string name="type4_13_track">Battersea Track, Seymour Leisure Centre amongst others</string>
+    <string name="type4_13_picURL">https://imgur.com/f6ne2RY</string>
+    <string name="type4_13_desc">Serpentine is possibly the largest running and triathlon club in
+        Britain. We have 2245 members of whom 43% are women. We have a wide variation of ages:
+        a few juniors, many young people, a few in their eighties and everything in-between.
+        However, although we are large, we like to think we retain a friendly, small club atmosphere
+        and always welcome newcomers.
+Our roots were in road running but these days our members take part in all sorts of sporting
+        activities loosely related to running. We compete in road races all year round. Additionally,
+        in the winter we also do cross country, taking part in two leagues, as well as in County and
+        National Championships; and in summer, we have men's and women's track &amp; field teams in the
+        Southern Athletics League, the vets league, and the Rosenheim league. The other major focus
+        in summer of course is triathlon and duathlon racing, with members competing at every
+        distance (in fact several hundred club members only ever compete in multi-sport). We have
+        several members who have competed at international level for England and other nations in
+        running, track &amp; field, duathlon and triathlon competitions.</string>
+    <string name="type4_13_homeURL">http://www.serpentine.org.uk/
+</string>
+    <string name="type4_13_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=1188</string>
+
+
+    <string name="type4_14_name">Shaftesbury Barnet</string>
+    <string name="type4_14_track">Allianz Park</string>
+    <string name="type4_14_picURL">https://imgur.com/TzoUJii</string>
+    <string name="type4_14_desc">Shaftesbury cater for athletes of all ages from 10 years upwards,
+        competing in Track and Field Athletics, Cross-Country and Road Running.
+We are involved at all levels of Athletics within the Community. As well as providing coaching for
+        athletes from Novices to Olympic Standard, we provide teams to help out at the London Marathon,
+        encourage schools to link in with us, arrange meetings at which International Athletes compete.
+A Primary Schools Club operates from Copthall Girls School, Pursley Road, Mill Hill
+Shaftesbury are a Community Club catering for all levels of athlete - all we ask for is regular
+        attendance and a commitment to training.</string>
+    <string name="type4_14_homeURL">http://www.sbharriers.co.uk/</string>
+    <string name="type4_14_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=1192</string>
+
+    <string name="type4_15_name">St. Mary\'s Richmond AC</string>
+    <string name="type4_15_track">St. Mary\'s Track </string>
+    <string name="type4_15_picURL">https://imgur.com/M1KGzbW</string>
+    <string name="type4_15_desc">Membership is available to anyone from the age of 11 years up and
+        everyone can benefit from coaching suitable to them. St Mary\'s Richmond AC provides
+        competition opportunities for our members throughout the year, and actively encourages the
+        membership to compete in order to realise their goals and achieve their full potential.</string>
+    <string name="type4_15_homeURL">http://www.smrac.org.uk/</string>
+    <string name="type4_15_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=1120</string>
+
+    <string name="type4_16_name">Striders of Croydon</string>
+    <string name="type4_16_track">Croydon sports arena</string>
+    <string name="type4_16_picURL">https://imgur.com/crlOHNA</string>
+    <string name="type4_16_desc">All standards are catered for and everyone will be made most welcome.
+        In order to encourage runners of all abilities, the club has had a long standing policy of
+        frequently \'turning back\' to pick up those running at the back of the pack. If you have any
+        doubts about whether you can keep up with the pace, or of dropping off the back and getting
+        lost, fear not, we won't leave you behind!
+If you are interested in joining us come along to one of our sessions and speak to whoever is
+        leading the run. You are welcome to run with us for a few weeks before formally joining
+        and paying your subscription</string>
+    <string name="type4_16_homeURL">http://www.stridersofcroydon.co.uk/</string>
+    <string name="type4_16_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=1308</string>
+
+
+    <string name="type4_17_name">Thames Valley Harriers</string>
+    <string name="type4_17_track">Linford Christie Stadium</string>
+    <string name="type4_17_picURL">https://imgur.com/C3HGUaF</string>
+    <string name="type4_17_desc">We train at Linford Christie Stadium, West London, which is situated
+        at the back of Hammersmith Hospital on Wormwood Scrubs and we have our own Club House at
+        trackside plus a Cross Country course around Wormwood Scrubs.
+Thames Valley Harriers caters for every standard, from beginners to Olympic Champions,
+        and also offers a full coaching programme. All ages, both male and female, from 11 to 99
+        years are welcome and we compete at all levels on the Road, Cross Country, and on Track &amp;
+        Field. If you are looking for more gentle activity, we also have a joggers group.</string>
+    <string name="type4_17_homeURL">http://www.thamesvalleyharriers.com/</string>
+    <string name="type4_17_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=1354</string>
+
+    <string name="type4_18_name">Victoria Park Harriers &amp; Tower Hamlets AC</string>
+    <string name="type4_18_track">Mile End stadium</string>
+    <string name="type4_18_picURL">https://imgur.com/Jgec77V</string>
+    <string name="type4_18_desc">Based out of St. Augustine\'s Hall in the north-east corner of
+        Victoria Park, east London. The club is open to all, regardless of ability, from the age of
+        9 upwards. The membership of approximately 400 includes track, field, road and cross country
+        athletes, from beginners to GB team members. Coached training sessions occur at both
+        St. Augustine\'s Hall and Mile End Stadium several times a week.
+The Clubhouse is open five days a week and its use is free to all full Club members. The Clubhouse
+        is located on the edge of Victoria Park giving direct access to the traffic-free running
+        environment provided by the Park, the local canal towpaths, Hackney Marshes and the
+        River Lea towpath. In addition, the Club uses the 8-lane, floodlit track at Mile End Stadium,
+        Rhodeswell Road for track and field training.</string>
+    <string name="type4_18_homeURL">http://www.vphthac.org.uk/</string>
+    <string name="type4_18_rosterURL">https://www.thepowerof10.info/clubs/club.aspx?clubid=1442</string>
 
 
     <string name="str9_1">Indoor Track 1</string>

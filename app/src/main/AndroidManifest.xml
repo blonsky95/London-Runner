@@ -8,36 +8,54 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".outdoorTracks">
 
+        <activity android:name="com.example.pablotrescoli.londonrunner.clubs.AthleticsClubsDisplay">
         </activity>
-        <activity android:name=".outdoorTracks_dist">
 
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.TracksMenu">
         </activity>
-        <activity android:name=".indoorTracks">
 
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.ParkrunMenu">
         </activity>
-        <activity android:name=".indoorTracks_dist">
 
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.LondonRunnerDetailedItemDisplayer">
         </activity>
-        <activity android:name=".runningRoutes">
 
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsDisplay">
         </activity>
-        <activity android:name=".detailedSite">
 
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.RegisterNewUser">
+        </activity>
+
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsRequest">
+        </activity>
+
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.WhatIsParkrun">
+        </activity>
+
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplay">
+        </activity>
+
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplayByDistance">
+        </activity>
+
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplay">
+        </activity>
+
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplayByDistance">
         </activity>
 
     </application>

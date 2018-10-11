@@ -1,94 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/image1mod">
+    android:background="@color/white_soft"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/my_toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:elevation="4dp"
-            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
-
-
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="22dp"
-            android:gravity="center"
+            android:paddingBottom="15dp"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:gravity="center"
-                android:text="@string/item_name"
-                android:textColor="@color/white"
-                android:textSize="22sp" />
-
-            <TextView
-                android:id="@+id/details"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-
-                android:gravity="center"
-                android:text="@string/item_name"
-                android:textColor="@color/white" />
-
-            <TextView
-                android:id="@+id/adress"
+            <ImageView
+                android:id="@+id/track_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:textSize="18sp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_cont_desc" />
 
-                android:gravity="center"
-                android:text="@string/item_name"
-                android:textColor="@color/white" />
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/track_image"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/image_cont_desc"
-            android:background="@drawable/image_design"
-            android:padding="8dp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="22dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:gravity="center">
-
-            <TextView
-                android:id="@+id/description"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
+                android:orientation="vertical">
 
-                android:text="@string/item_description"
-                android:textColor="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="@string/item_heading_times_prices"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/lineview_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#d10b0b0b" />
+
+                <TextView
+                    android:id="@+id/details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+
+                    android:gravity="center"
+                    android:text="@string/item_name"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="Facility description"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#d10b0b0b" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+                    android:gravity="center"
+
+                    android:text="@string/item_description"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/heading3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="Location"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#d10b0b0b" />
+
+                <TextView
+                    android:id="@+id/adress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"                    android:gravity="center"
+
+                    android:text="@string/item_name"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/maps_icon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/image_cont_desc"
+                    android:src="@drawable/gmaps" />
+
+                <TextView
+                    android:id="@+id/heading4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="Club"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/club_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="#d10b0b0b" />
+
+                <TextView
+                    android:id="@+id/roster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center"
+
+                    android:text="@string/item_name"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/club_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+                    android:gravity="center"
+
+                    android:text="@string/item_name"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/club_icon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="4dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/image_cont_desc"
+                    android:src="@drawable/gmaps" />
+
+
+            </LinearLayout>
+
+
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 
-</ScrollView>
+</LinearLayout>
