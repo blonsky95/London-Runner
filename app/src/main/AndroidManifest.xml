@@ -14,7 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.MainMenu">
+        <activity
+            android:name="com.example.pablotrescoli.londonrunner.main.MainMenu"
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,41 +25,31 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.clubs.AthleticsClubsDisplay">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.clubs.AthleticsClubsDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.TracksMenu">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.TracksMenu"
+            android:screenOrientation="portrait"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.ParkrunMenu">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.ParkrunMenu"
+            android:screenOrientation="portrait"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.LondonRunnerDetailedItemDisplayer">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.main.LondonRunnerDetailedItemDisplayer"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsDisplay">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.RegisterNewUser">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.RegisterNewUser"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsRequest">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsRequest"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.WhatIsParkrun">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.WhatIsParkrun"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplay">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplayByDistance">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplayByDistance"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplay">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplayByDistance">
-        </activity>
+        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplayByDistance"/>
 
     </application>
 
