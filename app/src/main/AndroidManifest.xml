@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pablotrescoli.londonrunner">
+    package="my.london.pablotrescoli.londonrunner">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
-            android:name="com.example.pablotrescoli.londonrunner.main.MainMenu"
+            android:name="my.london.pablotrescoli.londonrunner.main.MainMenu"
             android:screenOrientation="portrait">
 
             <intent-filter>
@@ -25,31 +25,31 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.clubs.AthleticsClubsDisplay"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.clubs.AthleticsClubsDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.TracksMenu"
+        <activity android:name="my.london.pablotrescoli.londonrunner.main.TracksMenu"
             android:screenOrientation="portrait"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.ParkrunMenu"
+        <activity android:name="my.london.pablotrescoli.londonrunner.main.ParkrunMenu"
             android:screenOrientation="portrait"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.main.LondonRunnerDetailedItemDisplayer"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.main.LondonRunnerDetailedItemDisplayer"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsDisplay"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.parkrun.ResultsDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.RegisterNewUser"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.parkrun.RegisterNewUser"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.ResultsRequest"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.parkrun.ResultsRequest"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.parkrun.WhatIsParkrun"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.parkrun.WhatIsParkrun"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplay"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplayByDistance"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.tracks.OutdoorTracksDisplayByDistance"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplay"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.tracks.IndoorTracksDisplay"/>
 
-        <activity android:name="com.example.pablotrescoli.londonrunner.tracks.IndoorTracksDisplayByDistance"/>
+        <activity android:name="my.london.pablotrescoli.londonrunner.tracks.IndoorTracksDisplayByDistance"/>
 
     </application>
 
