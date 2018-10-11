@@ -17,6 +17,7 @@ import android.support.v4.app.ActivityCompat;
 
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
@@ -30,12 +31,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class OutdoorTracksDisplayByDistance extends AppCompatActivity implements LocationListener {
+
     int SITE_ID = 1;
+
     protected LocationManager locationManager;
     ProgressDialog progress;
 
     double latDouble, lonDouble;
     boolean getFirstValue = false;
+
+    boolean networkLocationEnabled = false;
+    boolean gpsLocationEnabled = false;
 
     int NUMBER_OF_OUTDOOR_TRACKS = 34;
     Double METRES_PER_MILE = 1609.34;
@@ -60,6 +66,9 @@ public class OutdoorTracksDisplayByDistance extends AppCompatActivity implements
     }
 
     private void requestLocationIfDisabled() {
+        networkLocationEnabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        gpsLocationEnabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+
         if (locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
             getLocation();
         } else {
@@ -70,9 +79,24 @@ public class OutdoorTracksDisplayByDistance extends AppCompatActivity implements
     }
 
     private void getLocation() {
+        showProgressDialog();
+
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            return;  //permissions requested before intent to activity - should be granted both
+
+        }
+
+        if (networkLocationEnabled) { //network provider is faster at expense of accuracy
+            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1000, 100, this);
+        } else {
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 100, this);
+        }
+    }
+
+    private void showProgressDialog() {
         progress = new ProgressDialog(this);
         progress.setTitle("Finding Location");
-        progress.setMessage("Please wait");
+        progress.setMessage("Please wait" + "\n\nIf it is taking a long time, make sure your location works in google Maps first");
         progress.setCancelable(false); // disable dismiss by tapping outside of the dialog
         progress.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
             @Override
@@ -81,12 +105,6 @@ public class OutdoorTracksDisplayByDistance extends AppCompatActivity implements
             }
         });
         progress.show();
-
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            return;
-        }
-
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
     }
 
     private void sendUserToLocationSettings() {
@@ -200,6 +218,8 @@ public class OutdoorTracksDisplayByDistance extends AppCompatActivity implements
     protected void onPause() {
         super.onPause();
         locationManager.removeUpdates(this);
+        progress.dismiss();
+        finish();
     }
 
     @Override
